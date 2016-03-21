@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="test">
+	<head>
+	  <meta charset="utf8">
+	  <title>Test</title>
+	</head>
+
+	<body>
+		<div ng-controller="TestCtrl">
+			<button debugId="btn1" ng-click="showResult()">Show results!</button>
+			<div debugId="result">
+				{{result}}
+			</div>
+		</div>
+
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="app.js"></script>
+	</body>
+
+</html>

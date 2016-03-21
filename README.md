@@ -4,8 +4,8 @@
 Reproducing issue: https://github.com/mochajs/mocha/issues/2157
 
 Required external packages:
-1. webdriver-manager: https://www.npmjs.com/package/webdriver-manager
-2. protractor@2: https://github.com/angular/protractor
+  1. webdriver-manager: https://www.npmjs.com/package/webdriver-manager
+  2. protractor@2: https://github.com/angular/protractor
 
 I installed both globally (npm install -g).
 
@@ -13,7 +13,7 @@ Install app packages:
   1. npm install
   2. bower install
 
-Run the app:  
+Run the app:
   1. npm start
 
 Run e2e:

@@ -1,10 +1,11 @@
-Based on https://github.com/byverdu/BussuAngularTest
+#Simpe angular app with protractor e2e test
+(Based on https://github.com/byverdu/BussuAngularTest)
 
-Simple angular app with protractor based e2e test.
+Reproducing issue: https://github.com/mochajs/mocha/issues/2157
 
 Required external packages:
-webdriver-manager: https://www.npmjs.com/package/webdriver-manager
-protractor@2: https://github.com/angular/protractor
+1. webdriver-manager: https://www.npmjs.com/package/webdriver-manager
+2. protractor@2: https://github.com/angular/protractor
 
 I installed both globally (npm install -g).
 

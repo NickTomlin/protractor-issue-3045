@@ -1,4 +1,4 @@
-#Simpe angular app with protractor e2e test
+#Simple angular app with protractor e2e test
 (Based on https://github.com/byverdu/BussuAngularTest)
 
 Reproducing issue: https://github.com/mochajs/mocha/issues/2157

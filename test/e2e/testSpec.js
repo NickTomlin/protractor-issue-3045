@@ -8,7 +8,7 @@ var expect = chai.expect;
 
 describe('testSpec', function() {
 
-	it('clicks the buttons and checks result', function() {
+	it.only('clicks the buttons and checks result', function() {
 		browser.get('/src/index.html');
 
 		var btn = $('[debugId="btn1"]');
